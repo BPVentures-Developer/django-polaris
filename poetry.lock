@@ -2087,17 +2087,17 @@ watchmedo = ["PyYAML (>=3.10)"]
 
 [[package]]
 name = "whitenoise"
-version = "5.3.0"
+version = "6.7.0"
 description = "Radically simplified static file serving for WSGI applications"
 optional = false
-python-versions = ">=3.5, <4"
+python-versions = ">=3.8"
 files = [
-    {file = "whitenoise-5.3.0-py2.py3-none-any.whl", hash = "sha256:d963ef25639d1417e8a247be36e6aedd8c7c6f0a08adcb5a89146980a96b577c"},
-    {file = "whitenoise-5.3.0.tar.gz", hash = "sha256:d234b871b52271ae7ed6d9da47ffe857c76568f11dd30e28e18c5869dbd11e12"},
+    {file = "whitenoise-6.7.0-py3-none-any.whl", hash = "sha256:a1ae85e01fdc9815d12fa33f17765bc132ed2c54fa76daf9e39e879dd93566f6"},
+    {file = "whitenoise-6.7.0.tar.gz", hash = "sha256:58c7a6cd811e275a6c91af22e96e87da0b1109e9a53bb7464116ef4c963bf636"},
 ]
 
 [package.extras]
-brotli = ["Brotli"]
+brotli = ["brotli"]
 
 [[package]]
 name = "xdrlib3"
@@ -2239,4 +2239,4 @@ docs = ["readthedocs-sphinx-ext", "sphinx", "sphinx-autodoc-typehints", "sphinx-
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "c0a44aaf3c515b9581d0b4422bc397984a1ef15bb403c96a734c171e1ffc585d"
+content-hash = "f9bba045bbe8f1e19f75d675dbebe2f8331c1486f6c591f7b856cfa5d1e6d65a"
